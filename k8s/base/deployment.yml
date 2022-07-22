@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: express
-          image: 753537844828.dkr.ecr.eu-west-2.amazonaws.com/k8s:express-test
+          image: chrissssthomas/express-app
           ports:
             - containerPort: 3000
